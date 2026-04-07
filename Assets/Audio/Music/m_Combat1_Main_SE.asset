@@ -15,12 +15,15 @@ MonoBehaviour:
   internals:
     notes: Notes
     data:
-      previewAudioMixerGroup: {fileID: 0}
+      previewAudioMixerGroup: {fileID: 24300002, guid: 4f78a7375cebd844698a281be8ef159b, type: 2}
       expandSoundContainers: 1
       expandTimeline: 1
-      expandPreview: 0
+      expandPreview: 1
       expandAllSoundTag: 0
       timelineSoundContainerData:
+      - delay: 0
+        volumeRatio: 1
+        volumeDecibel: 0
       - delay: 0
         volumeRatio: 1
         volumeDecibel: 0
@@ -48,7 +51,7 @@ MonoBehaviour:
         pitchRatio: 1
         delay: 0
         increase2D: 0
-        intensity: 1
+        intensity: 0
         reverbZoneMixDecibel: 0
         reverbZoneMixRatio: 1
         startPosition: 0
@@ -88,7 +91,7 @@ MonoBehaviour:
       settingsExpandBase: 1
       settingsExpandAdvanced: 0
       polyphonyMode: 0
-      audioMixerGroup: {fileID: 0}
+      audioMixerGroup: {fileID: 24300002, guid: 4f78a7375cebd844698a281be8ef159b, type: 2}
       soundVolumeGroup: {fileID: 0}
       soundMix: {fileID: 0}
       soundPolyGroup: {fileID: 0}
@@ -98,11 +101,11 @@ MonoBehaviour:
       passParameters: 1
       ignoreLocalPause: 0
       ignoreGlobalPause: 0
-      expandIntensity: 0
+      expandIntensity: 1
       intensityAdd: 0
       intensityMultiplier: 1
       intensityRolloff: 0
-      intensitySeekTime: 0
+      intensitySeekTime: 0.4
       intensityCurve:
         serializedVersion: 2
         m_Curve:
@@ -131,11 +134,22 @@ MonoBehaviour:
       intensityThreshold: 0
       intensityScaleAdd: 0
       intensityScaleMultiplier: 1
-      intensityRecord: 0
+      intensityRecord: 1
       intensityDebugResolution: 100
       intensityDebugZoom: 0.9
-      intensityDebugValueList: []
-      triggerOnExpand: 1
+      intensityDebugValueList:
+      - 0
+      - 1
+      - 0
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      - 1
+      - 0
+      - 0
+      triggerOnExpand: 0
       triggerOnPlayEnable: 0
       triggerOnPlaySoundEvents:
       - {fileID: 0}
@@ -246,6 +260,7 @@ MonoBehaviour:
         soundEvent:
         - {fileID: 0}
     soundContainers:
-    - {fileID: 11400000, guid: c10dd5eec1f22354abda70e3c4681aa6, type: 2}
+    - {fileID: 11400000, guid: e5ea42d41becfba45a164de1009a9915, type: 2}
+    - {fileID: 11400000, guid: 76497e4effdb94c429e4298643ccb09e, type: 2}
   assetGuid: b3ea82687df4e9842af6782f90400624
   assetGuidHash: -8189396641981692422
